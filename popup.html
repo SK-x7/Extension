@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Language</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 10px;
+        }
+        select, button {
+            padding: 8px;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <label for="language-select">Your Language:</label>
+    <select id="language-select">
+        <!-- Options will be dynamically added by JavaScript -->
+    </select>
+
+    <label for="conversation-language-select">Conversation Language:</label>
+    <select id="conversation-language-select">
+        <!-- Options will be dynamically added by JavaScript -->
+    </select>
+
+    <button id="save-button">Save</button>
+
+    <script src="popup.js"></script>
+</body>
+</html>
